@@ -1,0 +1,49 @@
+.square {
+  position: absolute;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+}
+
+.dot-top-left {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  top: -10%;
+  left: -10%;
+}
+
+.dot-top-right {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  top: -10%;
+  left: 70%;
+}
+.dot-bottom-left {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  top: 92%;
+  left: -50%;
+}
+.dot-bottom-right {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  top: 92%;
+  left: 31%;
+}
